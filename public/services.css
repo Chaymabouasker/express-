@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./service.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  position: fixed;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+nav .nav-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 100px;
+}
+.logo a {
+  font-weight: 800;
+  padding-right: 60px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(26, 21, 21);
+}
+.main-nav a {
+  text-decoration: none;
+  padding-right: 30px;
+  color: rgb(26, 21, 21);
+  font-size: 18px;
+}
+main {
+  display: flex;
+
+  margin: 150px;
+}
+main h1 {
+  font-size: 80px;
+  font-family: "Rammetto One", cursive;
+}
